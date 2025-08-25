@@ -11,6 +11,7 @@
 - Tech stack used here: React, Typescript, Golang, RabbitMQ, MongoDB, Ansible, Bash scripting
 
 ## Demo
+*NOTE: Due to confidentiality, no actual code will be shown but just screengrabs of work done.*
 1. Provisioning, configuration and deletion of instance
 2. Snapshots - save a reusable image of the root disk for use in future provisioning
 3. Agent - does configuration on instance and also periodic health and metrics updating
@@ -24,6 +25,6 @@
 6. Implement Ansible playbook to do configuration (permissions,installation, enable SSH for specific users) and inject an agent that does reporting of health and resource usage metrics back to the platform.
 
 ## Additional demos for AWS and Azure.
-- AWS:
+- AWS: 
 
 - Azure:
