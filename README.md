@@ -7,16 +7,15 @@
 ## About my role
 - Core Platform Software Engineer intern over Summer 2025
 - Owned and developed a new feature end-to-end, with main work revolving around the backend using Golang.
+- Feature: Single instance management (provisioning, configuration, deletion) via the platform for AWS, GCP and Azure
+- Tech stack used here: React, Typescript, Golang, RabbitMQ, MongoDB, Ansible, Bash scripting
 
 ## Demo
-1. Provisioning and deletion of instance
-2. Snapshots
+1. Provisioning, configuration and deletion of instance
+2. Snapshots - save a reusable image of the root disk for use in future provisioning
 3. Agent - does configuration on instance and also periodic health and metrics updating
 
 ## Work done
-- Feature: Single instance management (provisioning, configuration, deletion) via the platform for AWS, GCP and Azure
-- Tech stack: React, Typescript, Golang, RabbitMQ, MongoDB, Ansible, Bash scripting
-
 1. Implement feature flag and toggle for sidebar.
 2. Implement listing of instances.
 3. Implement provision and deletion of instances for AWS and GCP.
@@ -25,3 +24,6 @@
 6. Implement Ansible playbook to do configuration (permissions,installation, enable SSH for specific users) and inject an agent that does reporting of health and resource usage metrics back to the platform.
 
 ## Additional demos for AWS and Azure.
+- AWS:
+
+- Azure:
