@@ -12,15 +12,15 @@
 *NOTE: Due to confidentiality, no actual code will be shown but just screengrabs of work done.*
 1. Provisioning, configuration and deletion of instance
 
-
+https://github.com/user-attachments/assets/1258566d-3f84-4dfb-8a81-5555cc3b93cd
 
 2. Snapshots - save a reusable image of the root disk for use in future provisioning
 
-https://github.com/user-attachments/assets/145a14a1-c860-47b2-a93c-56c764d6240c
+https://github.com/user-attachments/assets/28461f62-6011-406e-bef6-e077cb09fafd
 
 3. Agent - does configuration on instance and also periodic health and metrics updating
 
-
+https://github.com/user-attachments/assets/2191b186-b1fc-4f32-8244-232ee9965282
 
 # Work done
 1. Implement feature flag and toggle for sidebar.
