@@ -1,16 +1,14 @@
-# Introduction
-
-## About the company
+# About the company
 - Parallel Works is a startup that provides a platform for seamless orchestration of AI and HPC workloads across hybrid multi-cloud environments.
 - More info: https://parallelworks.com/
 
-## About my role
+# About my role
 - Core Platform Software Engineer intern over Summer 2025
 - Owned and developed a new feature end-to-end, with main work revolving around the backend using Golang.
 - Feature: Single instance management (provisioning, configuration, deletion) via the platform for AWS, GCP and Azure
 - Tech stack used here: React, Typescript, Golang, RabbitMQ, MongoDB, Ansible, Bash scripting
 
-## Demo
+# Demo
 *NOTE: Due to confidentiality, no actual code will be shown but just screengrabs of work done.*
 1. Provisioning, configuration and deletion of instance
 
@@ -24,7 +22,7 @@ https://github.com/user-attachments/assets/145a14a1-c860-47b2-a93c-56c764d6240c
 
 
 
-## Work done
+# Work done
 1. Implement feature flag and toggle for sidebar.
 
 https://github.com/user-attachments/assets/ae9d7f54-96cf-4abe-8778-e319b376167b
@@ -55,7 +53,7 @@ https://github.com/user-attachments/assets/bfec951f-e52c-437b-bdc9-dd213cc14087
 
 https://github.com/user-attachments/assets/305d8202-be75-458d-a87d-5ff8f1ce0b4f
 
-## Additional demos for AWS and Azure.
+# Additional demos for AWS and Azure.
 - AWS: 
 
 - Azure:
