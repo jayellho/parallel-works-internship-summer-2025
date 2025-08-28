@@ -44,23 +44,25 @@ https://github.com/user-attachments/assets/ae9d7f54-96cf-4abe-8778-e319b376167b
 
 https://github.com/user-attachments/assets/856a2bc3-d8ab-463e-8c3d-8b07e14761d9
 
-### 2. Implement listing of instances.
+### 2. Implement provision, listing and deletion of instances for AWS and GCP.
 
-
-
-### 3. Implement provision and deletion of instances for AWS and GCP.
+https://github.com/user-attachments/assets/18f4ffe2-d3e5-4a4f-8ba9-68bbf52b33e1
 
 https://github.com/user-attachments/assets/6696be39-a3ed-422c-b03d-8f1f54b6f95c
 
-### 4. Implement cleanup of instances on failure.
+### 3. Implement cleanup of instances on failure.
 
 https://github.com/user-attachments/assets/87a0d859-bfa6-45cc-bf4f-345824c42f99
 
-### 5. Show public IP as a field on instance list page.
+### 4. Show public IP as a field on instance list page.
 
 https://github.com/user-attachments/assets/fc973ca8-1a9d-4287-892f-b79d7decd689
 
-### 6. Implement Ansible playbook to do configuration (permissions,installation, enable SSH for specific users) and inject an agent that does reporting of health and resource usage metrics back to the platform.
+### 5. Implement Ansible playbook to do configuration (permissions,installation, enable SSH for specific users) and inject an agent that does reporting of health and resource usage metrics back to the platform
+
+https://github.com/user-attachments/assets/ff4dbc5a-89ff-48cb-8dce-ccea762a0a86
+
+https://github.com/user-attachments/assets/7769cf0f-6eb6-43f2-9522-bdb079d647ca
 
 https://github.com/user-attachments/assets/67336382-6d59-4176-b9f6-0f681f6c0d8e
 
