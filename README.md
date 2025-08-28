@@ -9,7 +9,7 @@
 - Tech stack used here: React, Typescript, Golang, RabbitMQ, MongoDB, Ansible, Bash scripting.
 
 # Demo
-*NOTE: Due to confidentiality, no actual code will be shown but just screengrabs of work done.*
+*NOTE: Due to confidentiality, no actual code will be shown but just screengrabs of work done. Only GCP is shown for brevity although work was done on all three major clouds.*
 ### 1. Provisioning, configuration and deletion of instance
 - Provisioning and deletion were done using the SDKs for each cloud service provider - Azure, GCP, AWS.
 - Configuration was done via an Ansible playbook with several roles, one of which was to install our CLI agent onto the VM, which reports instance health and CPU and/or GPU utilization metrics back to the platform every 30 seconds.
@@ -26,10 +26,16 @@ https://github.com/user-attachments/assets/28461f62-6011-406e-bef6-e077cb09fafd
 
 ### 3. Agent - does configuration on instance and also periodic health and metrics updating
 - This involved significant troubleshooting due to authentication issues with JWT and difficulty in debugging due to limited error messages and also slower iteration (needed to wait for instance provision).
-- A better approach would have been to inject the agent onto a Docker container and iterate to a certain extent before using the actual instances.
-- Specific configuration:
-- 
+- A better approach would have been to inject the agent onto a Docker container and iterate until the agent worked before using the actual instances.
+- Specific configuration: installs Python and Goofys, installs CLI agent for monitoring, sets up SSH for user with appropriate permissions, runs user bootstrap script.
+
 https://github.com/user-attachments/assets/2191b186-b1fc-4f32-8244-232ee9965282
+
+# Overall Learning
+1. Programming idioms and language quirks for: Golang, MongoDB, React
+2. How to design API endpoints and use of related routers (chi, Fiber) and frameworks like Huma (no need to update API documentation with this!)
+3. Understanding and modifying a large codebase of millions of lines of code.
+4. Communication is key especially in a remote work setting with no physical interaction.
 
 # Work done
 ### 1. Implement feature flag and toggle for sidebar.
@@ -61,8 +67,3 @@ https://github.com/user-attachments/assets/67336382-6d59-4176-b9f6-0f681f6c0d8e
 https://github.com/user-attachments/assets/bfec951f-e52c-437b-bdc9-dd213cc14087
 
 https://github.com/user-attachments/assets/305d8202-be75-458d-a87d-5ff8f1ce0b4f
-
-# Additional demos for AWS and Azure.
-- AWS: 
-
-- Azure:
